@@ -1,0 +1,56 @@
+[
+  {
+    "name": "中国民航局英文站",
+    "region": "中国",
+    "language": "en",
+    "url": "https://www.caac.gov.cn/English/News/index.html"
+  },
+  {
+    "name": "中国政府网英文站 · 民航统计",
+    "region": "中国",
+    "language": "en",
+    "url": "https://english.www.gov.cn/archive/statistics/"
+  },
+  {
+    "name": "香港民航处",
+    "region": "中国香港",
+    "language": "en",
+    "url": "https://www.cad.gov.hk/english/pressrelease.html"
+  },
+  {
+    "name": "ICAO 亚太",
+    "region": "亚太",
+    "language": "en",
+    "url": "https://www.icao.int/APAC/Pages/default.aspx"
+  },
+  {
+    "name": "新加坡民航局",
+    "region": "亚太",
+    "language": "en",
+    "url": "https://www.caas.gov.sg/resources/media-and-publication/newsroom/"
+  },
+  {
+    "name": "Airservices Australia",
+    "region": "亚太",
+    "language": "en",
+    "url": "https://www.airservicesaustralia.com/news/"
+  },
+  {
+    "name": "FAA",
+    "region": "北美",
+    "language": "en",
+    "url": "https://www.faa.gov/newsroom/faa-daily-air-traffic-report"
+  },
+  {
+    "name": "EUROCONTROL",
+    "region": "欧洲",
+    "language": "en",
+    "url": "https://www.eurocontrol.int/news"
+  },
+  {
+    "name": "NAV CANADA",
+    "region": "北美",
+    "language": "en",
+    "url": "https://www.navcanada.ca/en/news/news-releases.aspx"
+  }
+]

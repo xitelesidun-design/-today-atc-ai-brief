@@ -1,0 +1,26 @@
+[
+  {
+    "title": "SWIM",
+    "term": "System-Wide Information Management",
+    "sourceUrl": "https://www.icao.int/APAC/swim",
+    "sourceLabel": "查看 ICAO 亚太地区 SWIM 资料"
+  },
+  {
+    "title": "DMAN",
+    "term": "Departure Manager",
+    "sourceUrl": "https://www.eurocontrol.int/concept/departure-management",
+    "sourceLabel": "查看 EUROCONTROL DMAN 资料"
+  },
+  {
+    "title": "A-CDM",
+    "term": "Airport Collaborative Decision Making",
+    "sourceUrl": "https://www.eurocontrol.int/concept/airport-collaborative-decision-making",
+    "sourceLabel": "查看 EUROCONTROL A-CDM 资料"
+  },
+  {
+    "title": "TBO",
+    "term": "Trajectory-Based Operations",
+    "sourceUrl": "https://www.faa.gov/nextgen/programs/tbo",
+    "sourceLabel": "查看 FAA TBO 资料"
+  }
+]
