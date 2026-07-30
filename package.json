@@ -1,0 +1,13 @@
+{
+  "name": "today-atc-ai-brief",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "generate": "node tools/generate-daily-report.mjs",
+    "validate": "node tools/validate-report.mjs data/latest.json"
+  },
+  "dependencies": {
+    "openai": "^6.0.0"
+  }
+}

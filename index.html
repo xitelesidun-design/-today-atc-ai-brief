@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="今日空管 AI 快报：面向塔台运行人员的全球航空运行资讯精选。" />
+    <meta name="theme-color" content="#112c3a" />
+    <title>今日空管 AI 快报</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="page-shell">
+      <header class="hero">
+        <div>
+          <p class="eyebrow">GLOBAL ATM INTELLIGENCE · DAILY BRIEFING</p>
+          <h1>今日空管 <span>AI</span> 快报</h1>
+          <p class="subtitle">用 10 分钟，掌握真正影响运行的全球动态。</p>
+        </div>
+        <div class="issue-meta" aria-label="本期信息">
+          <strong id="report-date">正在载入</strong>
+          <span id="report-edition">今日快报</span>
+          <span id="report-status" class="status-dot">正在载入数据</span>
+        </div>
+      </header>
+
+      <section class="briefing" aria-labelledby="briefing-title">
+        <div class="section-heading">
+          <p class="section-kicker">TODAY'S READOUT</p>
+          <h2 id="briefing-title">先看结论</h2>
+        </div>
+        <p id="briefing-text">正在生成本期运行摘要。</p>
+        <div class="signal-grid">
+          <div><strong id="high-count">–</strong><span>重点关注</span></div>
+          <div><strong id="medium-count">–</strong><span>趋势跟踪</span></div>
+          <div><strong id="low-count">–</strong><span>行业参考</span></div>
+        </div>
+      </section>
+
+      <section class="toolbar" aria-label="资讯筛选">
+        <div>
+          <p class="section-kicker">CURATED FOR TOWER OPS</p>
+          <h2 id="news-heading">精选资讯</h2>
+        </div>
+        <div class="filters" role="group" aria-label="按优先级筛选">
+          <button class="filter active" data-filter="all">全部 <span>–</span></button>
+          <button class="filter" data-filter="high">重点 <span>–</span></button>
+          <button class="filter" data-filter="medium">跟踪 <span>–</span></button>
+          <button class="filter" data-filter="low">参考 <span>–</span></button>
+        </div>
+      </section>
+
+      <section class="history-bar" aria-label="历史日报">
+        <label for="archive-picker">历史日报</label>
+        <select id="archive-picker">
+          <option value="">最新一期</option>
+        </select>
+      </section>
+
+      <section id="news-list" class="news-list" aria-live="polite"></section>
+
+      <section class="tech-radar" aria-labelledby="tech-title">
+        <div class="radar-heading">
+          <div>
+            <p id="tech-kicker" class="section-kicker">TECHNOLOGY RADAR</p>
+            <h2 id="tech-title">技术雷达正在载入</h2>
+          </div>
+          <span id="tech-badge" class="radar-badge">正在载入</span>
+        </div>
+        <div id="tech-content" class="tech-card"></div>
+      </section>
+
+      <section class="method-note">
+        <div class="note-icon">i</div>
+        <div>
+          <h2>阅读说明</h2>
+          <p>每条仅保留与空管运行最相关的英文信息点及中文翻译；“AI 研判”是辅助决策，不替代航行情报、气象预报、运行通告或单位指令。重大运行事项请回到官方原始来源核验。</p>
+        </div>
+      </section>
+
+      <footer>
+        <span>今日空管 AI 快报 · 每日自动更新版</span>
+        <span id="source-line">信息截止：正在载入</span>
+      </footer>
+    </main>
+    <script src="data/latest.js"></script>
+    <script src="news.js"></script>
+  </body>
+</html>
