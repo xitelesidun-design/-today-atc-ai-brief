@@ -1,6 +1,11 @@
 {
   "reports": [
     {
+      "date": "2026-09-14",
+      "title": "每日自动快报",
+      "path": "data/archive/2026-09-14.json"
+    },
+    {
       "date": "2026-09-13",
       "title": "每日自动快报",
       "path": "data/archive/2026-09-13.json"
